@@ -1,5 +1,6 @@
 import React from 'react' ;
 import ReactDOM from 'react-dom/client';
+import './app.css';
 
 //create a new logo for the homepage with the companys name later
 function HomePage() {
@@ -15,9 +16,9 @@ function HomePage() {
                 <ul>
                     <li>Gardening Basics</li>
                     <li>Computer Skills and Coding</li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
+                    <li>Finacial Literacy for Teens/Adults</li>
+                    <li>Cooking and Nutrition</li>
+                    <li>DIY Projects and Crafts</li>
                 </ul>
             </div>
         </div>
