@@ -24,3 +24,19 @@ function HomePage() {
         </div>
     );
 }
+
+function AboutUsPage() {
+    return (
+        <div className="about-us-page">
+            <div className="about-us">
+            <h2>About New Limit</h2>
+            <p>At New Limit, we focus on helping communities grow and thrive by providing resources and education. Our mission includes:</p>
+            <ul>
+                <li>Funding tools and resources for local school educators.</li>
+                <li>Offering after-school programs to teach kids practical skills.</li>
+                <li>Empowering families and communities to achieve self-reliance.</li>
+            </ul>
+            </div>
+        </div>
+    );
+}

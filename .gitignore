@@ -25,3 +25,5 @@ Thumbs.db
 
 # Testing coverage reports
 coverage/
+
+.example.jsx
