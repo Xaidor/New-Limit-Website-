@@ -1,6 +1,6 @@
 import React from 'react' ;
 import ReactDOM from 'react-dom/client';
-import './app.css';
+import './website/app.css';
 
 //create a new logo for the homepage with the companys name later
 function HomePage() {
