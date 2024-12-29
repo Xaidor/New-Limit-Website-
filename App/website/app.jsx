@@ -35,7 +35,6 @@ function AboutUsPage() {
                 <li>Offering after-school programs to teach kids practical skills.</li>
                 <li>Empowering families and communities to achieve self-reliance.</li>
             </ul>
-            <CommentSection />
         </div>
     );
 }
@@ -79,6 +78,10 @@ function ContactPage() {
             <p>You can reach New Limit at 888.888.888</p>
             <p>Random Email</p>
             <p>Random Location</p>
+
+            <div>
+                <CommentSection />
+            </div>
         </div>
     );
 }
