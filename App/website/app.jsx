@@ -28,7 +28,6 @@ function HomePage() {
 function AboutUsPage() {
     return (
         <div className="about-us-page">
-            <div className="about-us">
             <h2>About New Limit</h2>
             <p>At New Limit, we focus on helping communities grow and thrive by providing resources and education. Our mission includes:</p>
             <ul>
@@ -36,7 +35,50 @@ function AboutUsPage() {
                 <li>Offering after-school programs to teach kids practical skills.</li>
                 <li>Empowering families and communities to achieve self-reliance.</li>
             </ul>
+            <CommentSection />
+        </div>
+    );
+}
+
+// Comment section component
+function CommentSection() {
+    const [comments, setComments] = React.useState([]);
+    const [newComment, setNewComment] = React.useState("");
+
+    const handleAddComment = () => {
+        if (newComment.trim()) {
+            setComments([...comments, newComment]);
+            setNewComment("");
+        }
+    };
+
+    return (
+        <div className="comment-section">
+            <h2>Community Feedback</h2>
+            <textarea
+                placeholder="Leave a comment"
+                value={newComment}
+                onChange={(e) => setNewComment(e.target.value)}
+            />
+            <button onClick={handleAddComment}>Submit</button>
+            <div className="comments">
+                {comments.map((comment, index) => (
+                    <div key={index} className="comment">
+                        {comment}
+                    </div>
+                ))}
             </div>
+        </div>
+    );
+}
+
+function ContactPage() {
+    return (
+        <div className="contact-us-page">
+            <h2>How to Reach Us</h2>
+            <p>You can reach New Limit at 888.888.888</p>
+            <p>Random Email</p>
+            <p>Random Location</p>
         </div>
     );
 }
