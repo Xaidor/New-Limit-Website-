@@ -21,9 +21,10 @@ Highlights the company's mission and vision.
 Showcases after-school programs offered by New Limit.
 2. About Us Page
 Provides detailed information about the organization and its goals.
-Features a Comment Section where community members can post feedback.
-3. Contact Us Page
+3. Customer Support/Contact Us Page
 Offers a form for users to reach out to New Limit.
+Features a Comment Section where community members can post feedback.
+
 
 ## Technology Stack
 
