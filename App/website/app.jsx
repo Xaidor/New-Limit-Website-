@@ -71,3 +71,14 @@ function CommentSection() {
         </div>
     );
 }
+
+function ContactPage() {
+    return (
+        <div className="contact-us-page">
+            <h2>How to Reach Us</h2>
+            <p>You can reach New Limit at 888.888.888</p>
+            <p>Random Email</p>
+            <p>Random Location</p>
+        </div>
+    );
+}
